@@ -6,6 +6,6 @@ WORKDIR /api
 
 RUN npm i
 
-EXPOSE 3005
+EXPOSE 8085
 
 CMD npm start
