@@ -4,5 +4,5 @@
 docker build -t rest-api .
 
 # Run the docker image.
-docker run -d -it -p 3005:3005 -v $PWD:/api --name rest-api rest-api
+docker run -d -it -p 8085:8085 --mount source=$PWD, target=/api --name rest-api rest-api
 
